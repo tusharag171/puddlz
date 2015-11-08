@@ -1,0 +1,349 @@
+body{
+background-color: #fffccf;}
+
+.here1
+{color:red;}
+
+.t1
+{
+position:absolute;
+left:12%;
+width:350px;
+top:27%;
+}
+
+.puddlz
+{
+position:relative;
+float:right;
+color:#00aeef;;
+font-size:6.5em;
+font-family: 'Sail', cursive;
+}
+
+.subtitle
+{
+position:relative;
+font-family:'Averia Sans Libre', cursive;
+font-size:95%;
+float:right;
+color:red;
+}
+
+.topbutton{
+position:absolute;
+right:4%;
+width:545px;
+top:40px;
+height:100px;
+}
+
+
+
+.buttons
+{
+position:absolute;
+left:64%;
+width:22%;
+height:auto;
+float:left;
+top:26%;
+}
+
+
+#top1
+{
+width:100%;
+font-family: 'Convergence', sans-serif;
+font-size:1em;
+float:left;
+margin-bottom:10px;
+}
+
+.in0{
+float:left;
+left:0%;
+width:95%;
+
+height:30px;
+
+margin:0px 0px 0px -0px;
+border-top:1px solid black;
+border-left:1px solid black;
+border-right:1px solid black;
+border-bottom:0px solid black;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+
+padding:5px;
+}
+
+.in1
+{
+float:left;
+left:0%;
+width:95%;
+
+height:30px;
+
+margin:0px 0px 0px -0px;
+border-top:1px solid black;
+border-left:1px solid black;
+border-right:1px solid black;
+border-bottom:0px solid black;
+
+padding:5px;
+}
+
+.in2
+{
+float:left;
+left:0%;
+width:95%;
+
+height:30px;
+padding:5px;
+margin:0px;
+border-top:1px solid gray;
+border-left:1px solid black;
+border-right:1px solid black;
+border-bottom:0px solid black;
+}
+
+
+
+.in44{
+float:left;
+left:0%;
+width:100%;
+border:0;
+}
+
+.in4
+{
+float:left;
+left:0%;
+width:95%;
+height:30px;
+padding:5px;
+margin:0px;
+
+border-top:1px solid gray;
+border-left:1px solid black;
+border-right:1px solid black;
+border-bottom:0px solid black;
+}
+
+
+.seebelow
+{
+position:absolute;
+width:80px;
+font-size:1em;
+left:99.9%;
+display:none;
+color:red;
+}
+
+
+.ques
+{
+position:absolute;
+top:270px;
+width:90%;
+font-size:0.85em;
+left:5%;
+display:none;
+color:red;
+}
+
+
+.el
+{position:absolute;
+color:red;
+cursor:pointer;
+}
+
+
+.in5
+{
+float:left;
+left:0%;
+width:95%;
+height:30px;
+padding:5px;
+margin:0px 0px 0px -0px;
+
+border-top:1px solid gray;
+border-left:1px solid black;
+border-right:1px solid black;
+border-bottom:1px solid black;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+}
+
+.sb{
+width:100%;
+text-align:center;
+}
+
+.submit2
+{
+
+background:#00aeef;
+color:#ffffff;
+
+
+width:100px;
+height:30px;
+
+border-radius:5px;
+cursor:pointer;
+font-family: 'Convergence', sans-serif;
+font-size:1em;
+
+margin-top:10px;
+}
+
+.submit1
+{
+
+background:#00aeef;
+color:#ffffff;
+
+
+width:100px;
+height:30px;
+
+border-radius:5px;
+cursor:pointer;
+font-family: 'Convergence', sans-serif;
+font-size:1em;
+
+margin-top:10px;
+}
+
+
+
+@media only screen and (min-width:601px ) and (max-width:1125px) {
+.t1
+{
+position:absolute;
+left:6.5%;
+width:270px;
+top:30%;
+}
+
+.puddlz
+{
+position:relative;
+float:right;
+color:#00aeef;
+font-size:5em;
+font-family: 'Sail', cursive;
+}
+
+.buttons
+{
+position:absolute;
+right:16%;
+width:24%;
+height:auto;
+float:left;
+top:27%;
+}
+
+
+.seebelow
+{
+position:absolute;
+width:78px;
+font-size:0.9em;
+left:99.9%;
+display:none;
+}
+
+.ques
+{
+position:absolute;
+top:270px;
+width:90%;
+font-size:0.85em;
+left:5%;
+display:none;
+color:red;
+}
+.el
+{color:red;
+cursor:pointer;
+}
+
+.asterisk2
+{
+font-size:1.5em;
+color:red;
+}
+
+
+
+}
+
+
+@media only screen and (min-width:50px ) and (max-width:600px) {
+
+.t1
+{
+position:absolute;
+left:0px;
+height:100px;
+width:100%;
+top:2px;
+}
+
+.puddlz
+{
+position:relative;
+top:5%;
+left:0px;
+width:100%;
+color:#00aeef;
+font-size:4.0em;
+font-family: 'Sail', cursive;
+text-align:center;
+}
+
+.subtitle
+{
+position:relative;
+float:none;
+font-family:'Averia Sans Libre', cursive;
+font-size:0.85em;
+top:20%;
+text-align:center;
+}
+
+.buttons{
+position:absolute;
+left:19%;
+width:60%;
+top:160px;
+height:160px;
+}
+
+.el
+{position:absolute;
+color:red;
+cursor:pointer;
+}
+
+.seebelow
+{
+position:absolute;
+width:50px;
+font-size:0.6em;
+left:99.9%;
+display:none;
+}
+
+
+}

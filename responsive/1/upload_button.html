@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<style>
+#upload-file-container {
+   background: url(member.jpg) no-repeat;
+   width:55px;
+}
+
+#upload-file-container input {
+   filter: alpha(opacity=0);
+   opacity: 0;
+   cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="upload-file-container">
+
+<form id="form" action="http://www.example.com" enctype="multipart/form-data" method="post">
+    <input type="file" id="file" onchange="javascript:this.form.submit();">
+
+</form>
+</div>
+
+
+</body>
+
+</html>

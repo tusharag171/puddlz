@@ -1,0 +1,2 @@
+When a user logs in his account, we need to recognize his userid and put that in profile.php to display his own profile.
+Anhad- is there a way to recognize the uid from the current session?

@@ -1,0 +1,1 @@
+We won't be using this method for storing images.

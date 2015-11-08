@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+.topmargin
+{max-width: 700px;
+height: 20px;
+border: 2px none;
+}
+
+
+.email_send
+{
+position:relative;
+width:160px;
+height:30px;
+color:white;
+background-color:#00aeef;
+cursor:pointer;
+
+}
+
+
+.feedbox{
+max-width: 700px;
+height: 255px;
+margin: 0px auto 0px auto;
+position: relative;
+border: 2px none;
+background: #fdfcfc;
+-webkit-box-shadow: 0 0 10px #888888;
+-moz-box-shadow: 0 0 10px #888888;
+box-shadow: 0 0 10px #888888;
+border-radius:10px;
+font-size:14px;
+}
+
+.feedbox .head{
+height: 72px;
+position: relative;
+padding: 7px;
+}
+
+.line{
+display: inline-block;
+border-left: 3px solid brown;
+height: 62px;
+float:left;
+}
+
+.feedbox.head.con
+{
+float: left;
+padding: 2px;
+height: 40px;}
+
+.rating
+{margin: 10px 0px 0px 0px ; 
+float: left;
+height: 36px;}
+
+.feedbox  .content
+{ margin: 0px 15px 0px 15px; 
+height: 120px;
+border: 2px none;
+overflow: auto;
+background:#fcfbe4;
+	font-weight:600;
+      position: relative;
+    text-align:left;
+padding: 2px;  
+-webkit-box-shadow: 0 0 6px #00aff0;
+-moz-box-shadow: 0 0 6px #00aff0;
+box-shadow: 0 0 6px #00aff0;
+  }
+.feedbox .foot{
+height: 46px;
+font-size:11px;
+position: relative;
+padding: 2px;
+}
+.feedbox .foot p{ display: inline;}
+
+
+
+
+.image_container1{ width: 61px;
+display: inline-block;
+height: 61px;
+margin: 0px 10px 0px 10px;
+border: 1px solid;
+position:relative;
+float: left;}
+
+
+table td{
+width:398px;
+}

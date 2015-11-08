@@ -1,0 +1,203 @@
+
+.profile-head
+{
+position:relative;
+z-index:-2;
+top:29px;
+border: 2px solid gray;
+width:85%;
+left:7.5%;
+height:220px;
+right:7.5%;
+z-index:-1;
+}
+
+.profile-head .name
+{
+position:relative;
+left:40%;
+
+bottom:220px;
+font-size:170%;
+color:rgba(40,100,130,1);
+}
+
+.profile-head .details
+{
+
+position:relative;
+left:22%;
+font-size:140%;
+bottom:190px;
+color:rgba(200,100,130,1);
+}
+
+.profile-head .credit
+{
+position:relative;
+left:25%;
+bottom:250px;
+font-size:100%;
+
+}
+.about
+{
+position:relative;
+top:40px;
+left:9.5%;
+font-size:120%;
+width:81%;
+
+z-index:-1;
+background-color:rgb(240,240,240);
+}
+.every .x
+{
+position:relative;
+height:30%;
+width:17%;
+
+
+}
+.every
+{
+position:relative;
+top:40px;
+z-index:1;
+width:81%;
+left:9.5%;
+right:9.5%;
+background: -webkit-linear-gradient(rgb(240,240,240), rgba(80,150,180,0.9)); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(rgb(240,240,240), rgba(80,150,180,0.9)); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(rgb(240,240,240), rgba(80,150,180,0.9)); /* For Firefox 3.6 to 15 */
+background: linear-gradient(rgb(240,240,240), rgba(80,150,180,0.9)); /* Standard syntax (must be last) */
+}
+.every .credit
+{
+position:absolute;
+top:10%;
+width:25%;
+left:25%;
+font-size:105%;
+}
+.every .no_review
+{
+position:absolute;
+width:25%;
+left:50%;
+
+top:10%;
+font-size:105%;
+}
+.every .follow
+{
+position:absolute;
+width:15%;
+left:75%;
+top:10%;
+font-size:120%;
+background-color:#006699;
+color: rgb(240,240,240);
+border: 1px solid transparent;
+font-size:120%;
+height:30px;
+text-align:center;
+cursor:pointer;
+display:none;
+}
+.every .follow2
+{
+position:absolute;
+width:15%;
+left:75%;
+top:10%;
+font-size:120%;
+border:1px solid #dcdcdc;
+font-size:120%;
+height:30px;
+cursor:pointer;
+color:rgba(40,100,130,0.9);
+text-align:center;
+
+}
+.every .has
+{
+position:absolute;
+top:27%;
+left:25%;
+z-index:1;
+height:300px;
+width;300px;
+}
+
+.has.sslide{
+position:absolute;
+top:25px;
+width:100%;
+}
+
+.every .below
+{
+
+position:relative;
+padding:1px;
+background-color:#FFFFFF;
+font-size:100%;
+
+}
+.every .below .feed
+{
+position:relative;
+left:17%;
+padding:1px;
+}
+.every .below .f1
+{
+position:relative;
+font-size:90%;
+left:2px;
+width:17%;
+text-align:center;
+}
+.every .below .f2
+{
+position:relative;
+font-size:90%;
+left:2px;
+width:17%;
+text-align:center;
+}
+.feed
+{
+position:relative;
+width:82%;
+margin:3px;
+padding:2px;
+background-color:rgba(70,130,160,0.9);
+width:66.9%;
+left:23.1%;
+bottom:1px;
+
+z-index:3;
+}
+.feed .box1
+{
+position:relative;
+
+margin:1px;
+/* outer shadows  (note the rgba is red, green, blue, alpha) */
+-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+-moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+/* rounded corners */
+-webkit-border-radius: 12px;
+-moz-border-radius: 7px; 
+border-radius: 7px;
+
+/* gradients */
+background: -webkit-gradient(linear, left top, left bottom, 
+color-stop(0%, white), color-stop(15%, white), color-stop(100%, #D7E9F5)); 
+background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%); 
+
+
+}

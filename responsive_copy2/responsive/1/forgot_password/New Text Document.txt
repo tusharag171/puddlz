@@ -1,0 +1,7 @@
+forgotpassword1.php: Enter your email id
+
+forgotpassword2.php:  Msg displaying 'Email has been sent to you'
+
+forgotpassword2.php: Enter your new password
+
+forgotpassword2.php: Password changed! Put login button.

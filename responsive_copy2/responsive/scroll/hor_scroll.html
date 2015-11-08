@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+
+<link rel="stylesheet" href="hor_scroll.css" type="text/css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
+
+
+<script>
+$(document).ready(function () {
+
+    var scrollHandle = 0,
+        scrollStep = 5,
+        parent = $("#container");
+
+    //Start the scrolling process
+    $(".panner").on("mouseenter", function () {
+        var data = $(this).data('scrollModifier'),
+            direction = parseInt(data, 10);
+
+        $(this).addClass('active');
+
+        startScrolling(direction, scrollStep);
+    });
+
+    //Kill the scrolling
+    $(".panner").on("mouseleave", function () {
+        stopScrolling();
+        $(this).removeClass('active');
+    });
+
+    //Actual handling of the scrolling
+    function startScrolling(modifier, step) {
+        if (scrollHandle === 0) {
+            scrollHandle = setInterval(function () {
+                var newOffset = parent.scrollLeft() + (scrollStep * modifier);
+
+                parent.scrollLeft(newOffset);
+            }, 10);
+        }
+    }
+
+    function stopScrolling() {
+        clearInterval(scrollHandle);
+        scrollHandle = 0;
+    }
+
+});
+
+</script>
+
+</head>
+
+<body>
+<div id="container">
+    <div id="parent">
+        <div class="contentBlock">1</div>
+        <div class="contentBlock">2</div>
+        <div class="contentBlock">3</div>
+        <div class="contentBlock">4</div>
+        <div class="contentBlock">5</div>
+    </div>
+</div>
+<span id="panLeft" class="panner" data-scroll-modifier='-1'>Left</span>
+
+<span id="panRight" class="panner" data-scroll-modifier='1'>Right</span>
+</body>
+</html>

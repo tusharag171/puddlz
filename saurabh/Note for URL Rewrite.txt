@@ -1,0 +1,10 @@
+When we open profile.php and click on userids, the correct profile opens up but the urls are of form profile.php?userid=2
+We want this to be visible as profile.php/anhadmohananey.
+What we can currently do with URL Rewrite is that the user goes to profile.php/2 and he is displayed the contents of profile.php?userid=2.
+
+The URL Rewrite in htaccess file can help us redirect 1 url to another. Example: click on puddlz.com/saurabhkirtani and by default puddlz.com/saurabh/profile.php is displayed.
+Even this may be manual work unless we can fetch from database.
+For this-> http://stackoverflow.com/questions/10595556/facebook-like-custom-profile-url-php
+http://stackoverflow.com/questions/18987584/creating-a-public-profile-and-custom-url-in-php
+
+A workaround may be to go to a blank page first ..wrong

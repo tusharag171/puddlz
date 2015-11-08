@@ -1,0 +1,27 @@
+# Begin cache control #
+ExpiresActive on
+ExpiresActive off
+<FilesMatch ".*">
+Header unset Cache-Control
+Header unset Expires
+Header unset Last-Modified
+FileETag None
+Header unset Pragma
+</FilesMatch>
+# End cache control #
+ErrorDocument 403 /error/403.php
+ErrorDocument 404 /error/404.php
+
+
+
+
+# Make all requests have the www. in them
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^puddlz\.com
+RewriteRule ^(.*)$ http://www.puddlz.com/$1 [R=permanent,L]
+#prevent viewing of key.txt
+<files key.txt>
+ order allow,deny
+ deny from all
+</files>
+# serve custom error pages

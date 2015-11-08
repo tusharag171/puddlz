@@ -1,0 +1,180 @@
+.upper
+{
+position:fixed;
+top:0px;
+height:43px;
+margin:0px;
+left:0px;
+top:0px;
+right:0px;
+width:100%;
+float:center;
+background: rgb(35,81,119); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(35,81,119,1) 0%, rgba(41,111,155,1) 35%, rgba(48,124,168,1) 59%, rgba(92,168,208,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(35,81,119,1)), color-stop(35%,rgba(41,111,155,1)), color-stop(59%,rgba(48,124,168,1)), color-stop(100%,rgba(92,168,208,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(35,81,119,1) 0%,rgba(41,111,155,1) 35%,rgba(48,124,168,1) 59%,rgba(92,168,208,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(35,81,119,1) 0%,rgba(41,111,155,1) 35%,rgba(48,124,168,1) 59%,rgba(92,168,208,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(35,81,119,1) 0%,rgba(41,111,155,1) 35%,rgba(48,124,168,1) 59%,rgba(92,168,208,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(35,81,119,1) 0%,rgba(41,111,155,1) 35%,rgba(48,124,168,1) 59%,rgba(92,168,208,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#235177', endColorstr='#5ca8d0',GradientType=0 ); /* IE6-9 */
+z-index:8;
+}
+.upper .title
+{
+height:32px;
+position:relative;
+float:left;
+top:4px;
+width:15%;
+top:20%;
+color:white;
+font-size:150%;
+font-family: 'Sail', cursive;
+cursor:pointer;
+}
+.upper .search_form
+{
+position:relative;
+width:320px;
+top:18%;
+height:27px;
+font-size:18px;
+margin:1px;
+z-index:8;
+cursor:text;
+}
+.dropx
+{
+position:fixed;
+top:45px;
+right:0px;
+font-size:80%;
+width:70px;
+display:none;
+cursor:pointer;
+}
+.dropx .el
+{
+border: 1px solid gray;
+height:25px;
+background-color:white;
+text-align:center;
+color:gray;
+}
+.upper .drop
+{
+float:right;
+height:40px;
+text-align:right;
+}
+.upper .downx
+{
+position:relative;
+height:46px;
+float:right;
+}
+.upper .downx .down1
+{
+position:relative;
+width:0px;
+height:0px;
+top:15px;
+border-left: 12px solid transparent;
+border-right: 12px solid transparent;
+border-top: 12px solid gray;
+cursor:pointer;
+
+}
+.upper .topper1 {	
+position:relative;
+float:right;
+top:20%;
+padding:0px;
+width:14%;
+margin:0px;	
+border:1px solid transparent;
+display:inline-block;
+font-family:Arial;
+font-size:14px;
+font-weight:normal;
+font-style:normal;
+height:32px;
+cursor:pointer;
+background-color:transparent;
+line-height:27px;
+text-align:center;
+color:white;
+
+}
+.down
+{
+position:fixed;
+left:15%;
+font-size:100%;
+display:none;
+font-size:90%;
+color:gray;
+z-index:7;
+
+}
+.down .d
+{
+cursor:pointer;
+position:relative;
+top:32px;
+left:3px;
+color:black;
+transition: color .3s ease-in-out;
+-moz-transition: color .3s ease-in-out;
+-webkit-transition: color .3s ease-in-out;
+transition: background-color .3s ease-in-out;
+-moz-transition: background-color .3s ease-in-out;
+-webkit-transition: background-color .3s ease-in-out;
+height:60px;
+width:318px;
+border: 1px solid gray;
+background-color:white;
+opacity:1;
+
+}
+.d:hover
+{
+color:white;
+background-color:gray;
+}
+.d .d0
+{
+position:absolute;
+width:255px;
+float:left;
+}
+.d .d4
+{
+position:absolute;
+right:0px;
+width:60px;
+}
+
+.upper .topper4 {	
+position:relative;
+float:right;
+width:13%;
+top:20%;
+cursor:pointer;
+padding:0px;
+margin:0px;	
+border:1px solid transparent;
+display:inline-block;
+color:#777777;
+font-family:Arial;
+font-size:14px;
+font-weight:normal;
+font-style:normal;
+height:32px;
+line-height:27px;
+text-align:center;
+background-color:transparent;
+color:white;
+
+}
+

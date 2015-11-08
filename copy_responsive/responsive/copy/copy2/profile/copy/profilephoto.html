@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+.profilephoto{
+position: relative;
+    width: 200px;
+    height: 200px;;
+}
+.profilebutton{
+position: absolute;
+    left: 30px;
+    top: 100px;
+    width: 20px;
+    height: 10px;
+display:none;
+}
+.profilephoto:hover .profilebutton{
+display:block
+}
+</style>
+</head>
+<body>
+<div class="profilephoto">
+<img src="p1.jpg" height="200px" width="200px">
+<div class="profilebutton" type="button">
+<input type="file" name="file">
+</div>
+</div>
+</body>
+
+</html>
